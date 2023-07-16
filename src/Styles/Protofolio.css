@@ -1,0 +1,73 @@
+.protofolio-left-container{
+    position: relative;
+    left:220px;
+    top:170px;
+    width:600px;
+    border-right:1px solid gray ;
+    height: 900px;
+}
+
+.protofolio-left-container label{
+    font-size:35px;
+    font-family: cursive;
+}
+
+.protofolio-left-container input{
+    width:400px;
+    height:50px;
+    border-radius: 10px;
+    font-size:20px;
+}
+
+.protofolio-submit-btn{
+    background-color:rgb(26, 143, 12);
+    color:white;
+    width:100px;
+    height:50px;
+    margin-top: 30px;
+    margin-left:130px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.protofolio-note{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: lighter;
+}
+
+.protofolio-note b{
+    font-size: 25px;
+    color:dodgerblue
+}
+
+.protofolio-right-container{
+    position: relative;
+    left:870px;
+    bottom:740px;
+    width:600px;
+    height: 900px;
+}
+
+.protofolio-right-header{
+    position: relative;
+    left:100px;
+    bottom:20px;
+    font-family: cursive;
+
+}
+
+.protofolio-status{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.protofolio-status-title{
+    color:dodgerblue;
+    font-size: 30px;
+}
+
+.error-message {
+    color: red;
+    font-weight: bold;
+    margin-top: 10px;
+  }
+  

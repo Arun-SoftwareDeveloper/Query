@@ -1,0 +1,17 @@
+.webcode-left-container{
+    position:fixed;
+    left: 230px;;
+    right:0;
+    top:30px;
+  }  
+
+  .webcode-right-container{
+    position:relative;
+    left:940px;
+    top:200px;
+    width:740px;
+  }
+
+  /* .webcode-right-container{
+    border:1px solid grey;
+  } */

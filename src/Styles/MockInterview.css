@@ -1,0 +1,27 @@
+  .mockinterview-container{
+    position: relative;
+    top:300px;
+    color: white;
+  }
+
+  .mockinterview-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .table-container {
+    margin-top: 20px;
+  }
+  
+  .pagination-container {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+  }
+  
+  .pagination-container select {
+    margin: 0 10px;
+  }
+  

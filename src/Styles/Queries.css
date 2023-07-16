@@ -1,0 +1,10 @@
+.create-query-btn{
+    color:white;
+    position: relative;
+    left:230px;
+    top:150px;
+    font-family: cursive;
+    font-weight: lighter;
+    font-size: 20px;
+    cursor: pointer;
+}

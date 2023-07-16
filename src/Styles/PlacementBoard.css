@@ -1,0 +1,86 @@
+.student-contents{
+        color:white;
+        position: relative;
+        left:230px;
+        top:150px;
+        font-family: cursive;
+        font-weight: lighter;
+        font-size: 20px;
+        cursor: pointer;
+
+}
+
+.placementboard-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+.student-contents {
+  width: 100%;
+  margin-top: 20px;
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  grid-gap:50px
+}
+
+.student-item {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 10px;
+  /* background-color: #f5f5f5; */
+  box-shadow: 3px 3px 3px 1px rgb(126, 131, 132);
+
+}
+.student span{
+    color: rgb(70, 70, 169);
+}
+.student {
+    color: #7eaed6;
+}
+
+.student-info {
+  margin-bottom: 10px;
+}
+
+.student-name {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.student-company,
+.student-ctc,
+.student-placed-through {
+  margin-bottom: 5px;
+}
+
+.no-data {
+  text-align: center;
+  color: #888;
+  font-style: italic;
+}
+.course-name {
+    background-image: linear-gradient(to right, #9e183c, #9fca9fb9,#fff); /* Replace #FF0000 and #00FF00 with your desired colors */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  
+  
+  
+/* Media Query for Responsive Layout */
+@media (max-width: 768px) {
+  .placementboard-container {
+    padding: 10px;
+  }
+  
+  .student-item {
+    padding: 8px;
+  }
+  
+  .student-name {
+    font-size: 16px;
+  }
+}

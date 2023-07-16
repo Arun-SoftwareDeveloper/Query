@@ -1,0 +1,28 @@
+.certificate-text{
+    color:white;
+    position: relative;
+    left:500px;
+    top:170px;
+    font-family: cursive;
+    font-weight: lighter;
+}
+
+@keyframes certificateAnimation {
+    0% {
+      opacity: 0;
+      transform: scale(0.8);
+    }
+    50% {
+      opacity: 1;
+      transform: scale(1.1);
+    }
+    100% {
+      opacity: 0;
+      transform: scale(0.8);
+    }
+  }
+  
+  .certificate-text {
+    animation: certificateAnimation 3s ease-in-out infinite;
+  }
+  

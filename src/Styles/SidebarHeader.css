@@ -1,0 +1,62 @@
+/* SidebarHeaderContainer
+.requirement-container {
+    display: flex;
+  } */
+  
+  #header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    /* background-color: #f5f5f5; */
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    margin-left: 200px;
+  }
+  .sidebar-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    height:100%
+
+  }
+   
+/*   
+  .header-title {
+    margin: 0;
+  }
+  
+  .header-text {
+    display: flex;
+    align-items: center;
+  }
+  
+  .class-logo {
+    width: 30px;
+    height: 30px;
+    margin-left: 10px;
+  }
+  
+ 
+  .zen-logo {
+    width: 100px;
+    height: 100px;
+  }
+  
+  .icon {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    color: #000;
+    text-decoration: none;
+  }
+   */
+  /* Add any additional styles for sidebar items here */
+  
+  /* Additional styles for the rest of your application */
+   /* */ 

@@ -1,0 +1,27 @@
+.requirement-text{
+    color:white;
+    position: relative;
+    left:680px;
+    top:150px;
+    font-family: cursive;
+    font-weight: lighter;
+}
+@keyframes comingSoonAnimation {
+    0% {
+      opacity: 0;
+      transform: translateY(-20px);
+    }
+    50% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+    100% {
+      opacity: 0;
+      transform: translateY(-20px);
+    }
+  }
+  
+  .requirement-text {
+    animation: comingSoonAnimation 3s ease-in-out infinite;
+  }
+  

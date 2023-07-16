@@ -1,0 +1,45 @@
+.syllabus-container {
+  margin: 20px;
+  padding: 20px;
+  border-radius: 5px;
+  position: relative;
+  top:400px;
+  color:white;
+
+}
+.syllabus-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-left: 550px;
+  box-shadow: 3px 3px 3px 1px rgb(126, 131, 132);
+  width:200px;
+  justify-content: center;
+  position: absolute;
+  bottom: 50px;
+
+}
+
+.syllabus-table th,
+.syllabus-table td {
+  padding: 30px;
+  text-align: left;
+
+}
+
+.syllabus-table th {
+  font-weight: bold;
+}
+
+.download-btn {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #428bca;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.download-btn:hover {
+  background-color: #3071a9;
+}

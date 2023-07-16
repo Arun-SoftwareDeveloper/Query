@@ -1,0 +1,108 @@
+.createquery-back-btn{
+    color:white;
+    position: fixed;;
+    left:230px;
+    top:150px;
+    font-family: cursive;
+    font-weight: lighter;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.createquery-contents{
+    color:white;
+    position: relative;
+    left:400px;
+    top:170px;
+    font-family:cursive;
+    font-weight: lighter;
+    font-size: 20px;
+    cursor: pointer;
+    border:1px solid whitesmoke;
+    width:800px;
+    height: 1000px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 3px 1px rgb(126, 131, 132);
+
+}
+/* .createquery-container {
+    /* border: 1px solid #ddd; */
+    /* padding: 20px;
+    width: 400px;
+    margin: 0 auto; */
+  /* } */ */
+  
+  .createquery-container h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .createquery-container label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .createquery-container select,
+  .createquery-container input[type='text'] {
+    width: 90%;
+    padding: 8px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    font-size: 14px;
+    margin-bottom: 10px;
+  }
+  
+  .createquery-container .category {
+    margin-bottom: 20px;
+  }
+  
+  .createquery-container label{
+  }
+  .createquery-container .voice-communication {
+    margin-bottom: 30px;
+  }
+  
+  .createquery-container .createquery-back-btn {
+    background-color: #ddd;
+    color: #333;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 4px;
+    font-size: 14px;
+    margin-bottom: 20px;
+    cursor: pointer;
+    
+  }
+  
+  .createquery-container .create {
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-right: 50px;
+    margin-top: 40px;
+    margin-left: 510px;
+    position: relative;
+
+  }
+  
+  .createquery-container .cancel {
+    /* background-color: #ccc; */
+    color: #333;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: rgb(162, 81, 81);
+  }
+  
+  .createquery-container .create:hover,
+  .createquery-container .cancel:hover {
+    opacity: 0.8;
+  }
+  

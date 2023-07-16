@@ -1,0 +1,105 @@
+.capstone-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .capstone-title {
+    margin-top: 200px;
+    font-size: 25px;
+    font-family: cursive;
+    border: 1px solid whitesmoke;
+    box-shadow: 3px 3px 3px 1px rgb(126, 131, 132);
+    border-radius: 10px;
+    padding: 8px;
+    width: fit-content;
+  }
+  
+  .capstone-content-route {
+    color: rgb(185, 185, 109);
+    cursor: pointer;
+    position: relative;
+    top: 10px;
+    left: 10px;
+  }
+  
+  .capstone-left-container{
+    position:fixed;
+    left: 230px;;
+    right:0;
+    top:30px;
+  }  
+
+  .capstone-right-container{
+    position:relative;
+    left:540px;
+    top:200px;
+    width:740px
+  }
+
+  .capstone-contents-title-head{
+    font-size: 50px;
+    color:dodgerblue
+
+  }
+  .capstone-contents-title{
+    font-size: 30px;
+    color:rgb(43, 171, 226)
+
+  }
+
+.capstone-contents-label{
+  font-size: 20px;
+  font-weight: lighter;
+  font-family: cursive;
+  padding:10px;
+}
+
+.capstone-contents-input{
+  width:100px;
+}
+
+.capstone-submit-btn{
+  background-color: rgb(170, 236, 70);
+  font-size: 30px;
+  border-radius: 10px;
+  cursor: pointer;
+  position:relative;
+  left:200px;
+  top:30px;
+}
+
+.capstone-submit-btn :hover{
+  background-color: rgb(185, 222, 128);
+}
+
+.capstone-cancel-btn{
+  background-color: rgb(222, 84, 11);
+  font-size: 30px;
+  border-radius: 10px;
+  cursor: pointer;
+  margin-left: 20px;
+  position:relative;
+  left:250px;
+  top:30px
+}
+
+.capstone-cancel-btn :hover{
+  background-color: rgb(147, 98, 78);
+}
+
+.capstone-back-btn{
+  background-color: aliceblue;
+  color:black;
+  width:70px;
+  font-size:20px;
+  position:absolute;
+  right:1350px;
+  cursor: pointer;
+
+}
+
+.capstone-back-btn i{
+  background-color: aliceblue;
+  color:black
+}
